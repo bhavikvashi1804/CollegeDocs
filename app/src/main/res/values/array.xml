@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_year">
+        <item>@string/year_fy</item>
+        <item>@string/year_sy</item>
+        <item>@string/year_ty</item>
+        <item>@string/year_fly</item>
+    </string-array>
+</resources>
