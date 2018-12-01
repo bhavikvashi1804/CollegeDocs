@@ -6,4 +6,47 @@
         <item>@string/year_ty</item>
         <item>@string/year_fly</item>
     </string-array>
+
+    <string-array name="array_1year_sem">
+        <item>SEM I</item>
+        <item>SEM II</item>
+    </string-array>
+
+    <string-array name="array_2year_sem">
+        <item>SEM III</item>
+        <item>SEM IV</item>
+    </string-array>
+
+    <string-array name="array_3year_sem">
+        <item>SEM V</item>
+        <item>SEM VI</item>
+    </string-array>
+
+    <string-array name="array_4year_sem">
+        <item>SEM VII</item>
+        <item>SEM VIII</item>
+    </string-array>
+
+    <string-array name="sem3_subject">
+        <item>AEM</item>
+        <item>DBMS</item>
+        <item>DS</item>
+        <item>DE</item>
+        <item>EEM</item>
+    </string-array>
+
+    <string-array name="sem4_subject">
+        <item>OS</item>
+        <item>CO</item>
+        <item>CN</item>
+        <item>OOPC</item>
+        <item>NMS</item>
+    </string-array>
+    <string-array name="sem5_subject">
+        <item>ADA</item>
+        <item>SP</item>
+        <item>CG</item>
+        <item>OOPJ</item>
+    </string-array>
+
 </resources>

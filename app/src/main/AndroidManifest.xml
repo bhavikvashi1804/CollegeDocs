@@ -3,7 +3,10 @@
     package="com.example.bhavikvashi.collegedocs">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:allowBackup="true"
@@ -19,11 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".first_year" />
-        <activity android:name=".second_year" />
-        <activity android:name=".third_year" />
-        <activity android:name=".fourth_year" />
-        <activity android:name=".ty_1"></activity>
+        <activity android:name=".Upload" />
+        <activity android:name=".view" />
     </application>
 
 </manifest>

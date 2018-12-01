@@ -18,25 +18,53 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Select Year"/>
+        <Spinner
+            android:layout_width="wrap_content"
             android:text="Select Year"
-            android:textSize="30dp"
-            android:textColor="#0336FF"
-            android:layout_marginBottom="10dp"/>
+            android:entries="@array/array_year"
+            android:id="@+id/view_xml_selectyear"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Select SEM"/>
 
         <Spinner
-            android:id="@+id/spinner_year"
             android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_marginBottom="10dp">
+            android:text="Select SEM"
+            android:id="@+id/view_sem"
+            android:layout_height="wrap_content">
         </Spinner>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Select Subject"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:text="Select Subject"
+            android:id="@+id/view_subject"
+            android:layout_height="wrap_content">
+        </Spinner>
+
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:text="Submit"
             android:textColor="#0336FF"
             android:layout_marginBottom="10dp"
-            android:id="@+id/button_select_year"/>
+            android:id="@+id/selected"/>
 
     </LinearLayout>
 

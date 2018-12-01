@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "18473799002",
+    "firebase_url": "https://collegedocs-b1d5e.firebaseio.com",
+    "project_id": "collegedocs-b1d5e",
+    "storage_bucket": "collegedocs-b1d5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18473799002:android:9138fcba610b0400",
+        "android_client_info": {
+          "package_name": "com.example.bhavikvashi.collegedocs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18473799002-te0uambkuvg34t1nkb1oecmh0odivl2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bhavikvashi.collegedocs",
+            "certificate_hash": "affdd0ebb26e27dec43b1d510478d48bc79a28ac"
+          }
+        },
+        {
+          "client_id": "18473799002-sull3ic8bqvholkfqh5u7b2qpd5b4vtj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwFhqbUJQ5SwVVcNlxAXg8BWhSgwqDwp0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18473799002-sull3ic8bqvholkfqh5u7b2qpd5b4vtj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
